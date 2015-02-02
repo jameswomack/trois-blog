@@ -1,5 +1,6 @@
 'use strict';
 
+// TODO - explore require('node-jsx').install({harmony: true})
 require('node-jsx').install({ extension: '.jsx' });
 
 var _ = require('lodash'),
