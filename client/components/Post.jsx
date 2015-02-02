@@ -1,7 +1,7 @@
 'use strict';
 var React = require('react');
 var PostStore = require('../stores/PostStore');
-var StoreMixin = require('fluxible-app').StoreMixin;
+var StoreMixin = require('fluxible').StoreMixin;
 var NavLink = require('flux-router-component').NavLink;
 var DisqusThread = require('./vendor/DisqusThread.jsx');
 

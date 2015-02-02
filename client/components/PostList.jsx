@@ -1,7 +1,7 @@
 'use strict';
 var React = require('react');
 var PostListStore = require('../stores/PostListStore');
-var StoreMixin = require('fluxible-app').StoreMixin;
+var StoreMixin = require('fluxible').StoreMixin;
 var PostItem = require('./PostItem');
 
 var PostList = React.createClass({

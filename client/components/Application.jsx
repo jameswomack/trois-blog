@@ -10,7 +10,7 @@ var PostList = require('./PostList.jsx');
 var Post = require('./Post.jsx');
 var ApplicationStore = require('../stores/ApplicationStore');
 var RouterMixin = require('flux-router-component').RouterMixin;
-var StoreMixin = require('fluxible-app').StoreMixin;
+var StoreMixin = require('fluxible').StoreMixin;
 
 var Application = React.createClass({
   displayName: 'Application',

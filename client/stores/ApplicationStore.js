@@ -1,5 +1,5 @@
 'use strict';
-var createStore = require('fluxible-app/utils/createStore');
+var createStore = require('fluxible/utils/createStore');
 var routesConfig = require('../configs/routes');
 var safeWindow = (function () {
   // return window in browser and fake object in server

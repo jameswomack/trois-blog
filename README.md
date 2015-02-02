@@ -1,11 +1,14 @@
 # trois-blog
 
-third iteration of blog
-
 Isomorphic website made with koa and flux/reactjs.
 
 
 ## Running
+
+* `brew install postgres`
+* `ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents`
+* `launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist`
+* `nvm use v0.11.15`
 
 **Production**
 
